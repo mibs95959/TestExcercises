@@ -1,0 +1,28 @@
+# Build output
+**/bin/
+**/obj/
+**/out/
+
+# IDE files
+**/.vs/
+**/.vscode/
+**/.idea/
+*.user
+*.suo
+*.userprefs
+
+# Test results
+**/TestResults/
+*.trx
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+!README.md
+
+# Other
+*.log

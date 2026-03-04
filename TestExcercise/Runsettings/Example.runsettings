@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+
+   <TestRunParameters>
+    <Parameter name="HeadlessMode" value="false" />
+    <Parameter name="URL" value="HereGoesTheUrl" />
+	<Parameter name="username" value="HereGoesTheUsername" />
+	<Parameter name="password" value="HereGoesThePassword" />
+	<Parameter name="2FAtoken" value="HereGoesThe2FAToken" />
+	   
+  </TestRunParameters>
+
+</RunSettings>

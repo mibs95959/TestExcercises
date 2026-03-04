@@ -1,0 +1,19 @@
+services:
+  testexercise:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: testexercise:latest
+    container_name: testexercise-runner
+    environment:
+      # Chrome headless settings
+      - CHROME_HEADLESS=true
+      # Test settings (add your credentials as needed)
+      - TEST_USERNAME=${TEST_USERNAME}
+      - TEST_PASSWORD=${TEST_PASSWORD}
+      - TEST_2FA_SECRET=${TEST_2FA_SECRET}
+    volumes:
+      # Mount test results back to host
+      - ./TestResults:/app/TestExcercise/TestResults
+    # Override command to run specific tests
+    # command: --filter "TestCategory=Demo"

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.reqnroll.net/reqnroll-config-latest.json",
+
+  "bindingAssemblies": [
+    {
+      "assembly": "WebAutomation"
+    },
+    {
+      "assembly": "Tools"
+    }
+  ],
+
+  "unitTestProvider": {
+    "name": "MSTest"
+  }
+}
